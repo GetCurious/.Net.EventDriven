@@ -1,0 +1,70 @@
+@Api_HostAddress = http://localhost:5034
+
+GET {{Api_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Api_HostAddress}}/todo?id=1
+Accept: application/json
+
+###
+
+PUT {{Api_HostAddress}}/todo
+Content-Type: application/json
+
+{
+    "id": "28bb7d1f-6105-4ff1-87b3-6b5b737f88fd",
+    "title": "Sleep",
+    "isCompleted": false
+}
+
+###
+
+POST {{Api_HostAddress}}/todo
+Content-Type: application/json
+
+{
+    "title": "Watch Movie",
+    "isCompleted": false
+}
+
+###
+
+DELETE {{Api_HostAddress}}/todo?id=28bb7d1f-6105-4ff1-87b3-6b5b737f88fd
+Accept: application/json
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PUT http://test:test@localhost:15672/api/policies/%2f/clear
+Content-Type: application/json
+
+{
+    "pattern": ".*",
+    "apply-to": "all",
+    "definition": {"expires":1},
+    "priority": 0
+}
+
+###
+
+DELETE http://test:test@localhost:15672/api/policies/%2f/clear
+
+###
+
+GET http://test:test@localhost:15672/api/queues
+
+###

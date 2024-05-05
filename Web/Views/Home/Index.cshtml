@@ -1,0 +1,35 @@
+﻿@using dotnet.EventDriven.Constant.Models
+@model List<Todo>
+
+@{
+    ViewData["Title"] = "Todo App";
+}
+
+<div class="text-center">
+    <h1 class="display-5">My Todos</h1>
+
+
+    <div class="text-end">
+        <button class="btn btn-primary"
+            hx-get="@Url.Action("EditTodo", new {id = Guid.Empty})" 
+            hx-target="#todo-list" hx-swap="beforeend">
+            Add
+        </button>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="todo-list">
+            @foreach (var todo in Model)
+            {
+                @await Html.PartialAsync("Todo/_TodoItem", todo)
+            }
+        </tbody>
+    </table>
+</div>

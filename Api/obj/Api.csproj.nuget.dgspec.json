@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Projects\\Demo\\.Net.EventDriven\\Api\\Api.csproj": {}
+  },
+  "projects": {
+    "c:\\Projects\\Demo\\.Net.EventDriven\\Api\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Projects\\Demo\\.Net.EventDriven\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\Nate\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nate\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projects\\Demo\\.Net.EventDriven\\Business\\Business.csproj": {
+                "projectPath": "C:\\Projects\\Demo\\.Net.EventDriven\\Business\\Business.csproj"
+              },
+              "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj": {
+                "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj"
+              },
+              "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj": {
+                "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Demo\\.Net.EventDriven\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Demo\\.Net.EventDriven\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Projects\\Demo\\.Net.EventDriven\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Nate\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Demo\\.Net.EventDriven\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nate\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj": {
+                "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj"
+              },
+              "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj": {
+                "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj",
+        "projectName": "Constant",
+        "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj",
+        "packagesPath": "C:\\Users\\Nate\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nate\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Nate\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nate\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj": {
+                "projectPath": "c:\\Projects\\Demo\\.Net.EventDriven\\Constant\\Constant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
